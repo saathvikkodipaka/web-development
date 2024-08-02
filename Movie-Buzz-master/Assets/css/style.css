@@ -1,0 +1,172 @@
+body, html {
+      background-color:   white  !important;
+      overflow: none;
+  }
+button.btnModal{
+    background-color: #EEEEEE;
+    border: #EEEEEE;
+    border-radius: 5px;
+}
+.current {
+	color: white;
+}
+button.searchbtnModal{
+    background-color: transparent;
+    border: transparent;
+    border-radius: 5px;
+}
+img {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    width: 100%;
+}
+.read {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+    border-radius: 3px;
+}
+.read:hover {
+    background-color: white;
+    color: black;
+}
+.hdr1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility; 
+}
+.retroshadow {
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+ }
+ @import url('https://fonts.googleapis.com/css?family=Pacifico');
+ .insetshadow {
+  font-family: 'Pacifico', cursive;
+  color: #1976D2;
+  letter-spacing: .05em;
+  text-shadow: 
+      4px 4px 0px gold, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+ .movieName {
+ 	font-size: 20px;
+ 	font-weight: bold;
+ }
+ .overview {
+ 	color: #808080;
+ }
+.heading {
+  width: 100%;
+  height: 250px;
+  font-weight: bold;
+  text-align: center;
+  background: gold;
+}
+.header_logo {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding-top: 80px;
+  font-size: 50px;
+  text-shadow: 3px 4px rgba(black, .1);
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Andada|Permanent+Marker|Raleway:300');
+#namer {
+ max-width: 800px;
+ font-family: 'Nunito', sans-serif;
+}
+#namer input {
+ border: 0;
+ border-bottom: 2px solid #1976D2;
+ border-right: 2px solid #1976D2;
+ border-left: 2px solid #1976D2;
+ border-top: 2px solid #1976D2;
+
+ width: 100%;
+ font-size: 30px;
+ line-height: 35px;
+ height: 70px;
+ text-align: center;
+ padding: 10px;
+ outline: 1;
+
+ background: transparent;
+	color: #1976D2;
+}
+.search-btn button {
+	background: #1976D2;
+	color: #fff;
+	border: 2px solid;
+	border-color: #1976D2;
+	border-radius: 5px;
+	padding: 15px;
+	display: block;
+	width: 50%;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Nunito', sans-serif;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+}
+.search-btn button:hover {
+	background: transparent;
+	color: #1976D2;
+	border: 2px solid #1976D2;
+	cursor: pointer;
+}
+.genre-btn button {
+	background: #1976D2;
+	color: #fff;
+	border: 2px solid;
+	border-color: #1976D2;
+	border-radius: 5px;
+	padding: 15px;
+	padding-bottom: 20px;
+	display: block;
+	width: 100%;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Nunito', sans-serif;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+}
+.genre-btn button:hover {
+	background: transparent;
+	color: #1976D2;
+	border: 2px solid #1976D2;
+	cursor: pointer;
+}
+.genre-btn button:focus {
+	background: transparent;
+	color: #1976D2;
+	border: 2px solid #1976D2;
+	cursor: pointer;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:#1976D2; }
+input:focus::-moz-placeholder { color:transparent; } 
+input:focus:-ms-input-placeholder { color:#1976D2; } 
+.linked {
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 20%;
+  float: right;
+}
